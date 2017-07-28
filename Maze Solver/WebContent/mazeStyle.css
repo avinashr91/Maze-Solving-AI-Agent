@@ -1,0 +1,126 @@
+#maze
+{
+	border-collapse:collapse;
+	border-color:black;	
+}
+#maze td
+{
+	border-style:solid;
+	width:20px;
+	height:20px;
+}
+/*
+	Maze top border open
+*/
+#maze .c1 
+{
+	border-width:0 2px 2px 2px; 
+}
+/*
+	Maze right border open
+*/
+#maze .c2
+{
+	border-width:2px 0 2px 2px;
+}
+
+/*
+	Maze bottom border open
+*/
+#maze .c3
+{
+	border-width:2px 2px 0 2px;
+}
+
+/*
+	Maze left border open
+*/
+#maze .c0
+{
+	border-width: 2px 2px 2px 0;
+}
+
+/*
+	Maze left and top borders open
+*/
+#maze .c01
+{
+	border-width:0 2px 2px 0;
+}
+/*
+	Maze right and left borders open
+*/
+#maze .c02
+{
+	border-width:2px 0 2px 0;
+}
+/*
+	Maze bottom and left borders open
+*/
+#maze .c03
+{
+	border-width:2px 2px 0 0;
+}
+/*
+	Maze Top and right borders open
+*/
+#maze .c12
+{
+	border-width:0 0 2px 2px;
+}
+
+/*
+	Maze Top and bottom borders open
+*/
+#maze .c13
+{
+	border-width:0 2px 0 2px;
+}
+
+/*
+	Maze right and bottom borders open
+*/
+#maze .c23
+
+{
+	border-width:2px 0 0 2px;
+}
+
+/*
+	Maze top right and bottom borders open
+*/
+#maze .c012
+{
+	border-width:0 0 2px 0;
+}
+
+/*
+	Maze top bottom and left borders open
+*/
+#maze .c013
+{
+	border-width : 0 2px 0 0;
+}
+
+/*
+	Maze right bottom and top borders open
+*/
+#maze .c123
+{
+	border-width:0 0 0 2px;
+}
+
+/*
+	maze right bottom and left borders open
+*/
+#maze .c023
+{
+	border-width : 2px 0 0 0;
+}
+/*
+	Maze all borders open
+*/
+#maze .c0123
+{
+	border-width : 0 0 0 0;
+}
